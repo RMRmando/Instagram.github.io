@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link data-default-icon="https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png" rel="icon" sizes="192x192" href="https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
-    <title>Document</title>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Instagram</title>
-        <link rel="stylesheet" href="ig.css">
-        <script src="https://kit.fontawesome.com/dd3aa32bae.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <aside>
-            <section class="logo">
-                <img src ="img/logo-removebg-preview.png" alt ="**">
-            </section>
-            <br>
+    <script src="https://kit.fontawesome.com/dd3aa32bae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <aside>
+        <section class="logo">
+            <img src ="img/logo-removebg-preview.png" alt ="**">
+        </section>
+        <br>
+        <div class="icons">
             <div><i class="fa-solid fa-house"></i> <a>Home </a></div>
             <div><i class="fa-solid fa-magnifying-glass"></i> <a>Search </a></div>
             <div><i class="fa-regular fa-compass"></i> <a>Explore </a></div>
@@ -30,32 +24,67 @@
             <div><i class ="fa-brands fa-facebook-messenger"></i> <a>Messages</a></div>
             <div><i class="fa-regular fa-heart"></i> <a>Notifications</a></div>
             <div><i class="fa-regular fa-square-plus"></i> <a>Create</a></div>
-            <div><i></i> <a>Profile</a></div>
-            
-        </aside>
-        <div id="container">
-            <main>
-                <section id="center">
-                    <section id="story">
-                        <div class="person"></div>
-                        <div class="person"></div>
-                        <div class="person"></div>
-                        <div class="person"></div>
-                        <div class="person"></div>
-                        <div class="person"></div>
-                        <div class="person"></div>
-                        <div class="person"></div>
-                    </section>
-                <section id="post">    
-                        <div class="post">s</div>
-                        <div class="post"></div>
-                        <div class="post"></div>
-                        <div class="post"></div>
-                        <div class="post"></div>    
-                </section>
-            </main>    
-        </div>
+            <div>
+                <img src="img/prof.jpg" alt="ff" width="32" height="32">
+                <a>Profile</a>    
+            </div>
+            <div><i class="fa-solid fa-bars"></i> <a>Menu</a></div>
 
-        
-    </body>
-    </html>
+        </div>
+    </aside>
+    <div id="container">
+        <main>
+            <section id="center">
+                <div class="posts">
+                    <div class="post-title">
+                        <div class="post-left">
+                            <div class="image">
+                                <img src="img/prof.jpg" alt="ff" width="32" height="32">
+                            </div>
+                            <div class="details">
+                                <p class="name">Ricardo M. Rimando Jr.
+                                        <span class="posting-time">  3yrs ago </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="post-right">
+                            <i class="fas-fa-ellipses-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <img src="img/prof.jpg" alt="ff" height="600" width="600">
+                    </div>
+                    <div class="post-footer">
+                        <div class="like-share-comment">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+
+                        </div>
+                        <div class="save">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-footer-content">
+                        <p class="likes">100 likes</p>
+                        <p class="name">cebe <span>Hello</span></p>
+                        <p class="comments">View all 10 comments</p>
+                        <p class="posting-time">  1hr ago</p>
+                    </div>
+                    <div class="add-comment">
+                        <div class="left-side">
+                            <i class="far fa-smile-beam"></i>
+                            <input type="text" placeholder="Add a comment..">
+                        </div>
+
+                    </div>
+                </div>
+
+             
+            </section>
+           
+            </div>
+        </main>
+    </div>
+</body>
+</html>
