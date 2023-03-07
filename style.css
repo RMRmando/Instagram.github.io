@@ -1,0 +1,92 @@
+body{
+    display: flex;
+}
+
+#container{
+    display:flex;
+    
+}
+
+.logo{
+    height:50px;
+    width:70px;
+}
+aside{
+    position:fixed;
+    top:1px;
+    flex-grow:1;
+    background-color: rgb(252, 252, 252);
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    max-width: 220px;
+    padding-left: 20px;
+   
+}
+
+
+aside div a{
+    font-size:1.5em;
+    margin-left: 10px;
+}
+
+aside div{
+    margin-top: 20px;
+}
+
+aside div i{
+    font-size:1.5em;
+    width:22px;
+    height:22px;
+    margin:5px;
+}
+
+#container main{
+    flex-grow:4;
+    background-color: antiquewhite;
+    height:100vh;
+    display:flex;
+    margin-left: 220px;
+    
+
+}
+
+
+#container main #center{
+    display:flex;
+    flex-direction: column;
+    width:630px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#container main #center #story{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#container main #center #post{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.post{
+    height:700px;
+    flex-grow: 1;
+    background-color: brown;
+    margin:5px;
+}
+
+.person{
+    height:84px;
+    width:64px;
+    background-color: blueviolet;
+    margin-top: 15px;
+
+}
+
+
+
+
